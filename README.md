@@ -1,13 +1,7 @@
 ## python3-arm-wheels
 
 This repository contains a series of pre-built wheels for different arm architectures.
-These were built on a docker container emulating the architectures via qemu.
-
-Right now, the repo contains images for Python3.8 on arm/v7 and aarch64 architectures of the following packages:
-- numpy 1.20.0
-- pandas 1.2.0
-- scikit-learn 0.24.0
-- scipy 1.6.0
+These were built on a docker container emulating the architectures via qemu or on a Raspberry Pi4 with the 64-bit versioni of the RaspberryPi OS.
 
 I mainly use these wheels as a way to quickly build docker images for my python projects that have to target arm architectures.
 
